@@ -16,7 +16,8 @@
             android:id="@+id/viewNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/hint_nombre" />
+            android:text="@string/hint_nombre"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <EditText
             android:id="@+id/txtNombre"
@@ -25,13 +26,15 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:labelFor="@+id/viewNombre"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/viewTelefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/hint_telefono" />
+            android:text="@string/hint_telefono"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <EditText
             android:id="@+id/txtTelefono"
@@ -40,13 +43,15 @@
             android:ems="10"
             android:inputType="phone"
             android:labelFor="@+id/viewTelefono"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/viewCorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/hint_direccion" />
+            android:text="@string/hint_direccion"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <EditText
             android:id="@+id/txtCorreoElectronico"
@@ -55,7 +60,8 @@
             android:ems="10"
             android:inputType="textEmailAddress"
             android:labelFor="@+id/viewCorreo"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/btnGuarda"
@@ -70,7 +76,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:clickable="true"
-            android:src="@drawable/ic_edit" />
+            android:src="@drawable/ic_edit"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fabEliminar"
@@ -78,7 +85,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:clickable="true"
-            android:src="@drawable/ic_delete" />
+            android:src="@drawable/ic_delete"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     </LinearLayout>
 <!--

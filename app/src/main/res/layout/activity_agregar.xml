@@ -16,7 +16,8 @@
             android:id="@+id/viewNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/hint_nombre" />
+            android:text="@string/hint_nombre"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <EditText
             android:id="@+id/txtNombre"
@@ -25,13 +26,18 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:labelFor="@+id/viewNombre"
-            android:textSize="18sp" />
+            android:minHeight="48dp"
+            android:textSize="18sp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/viewTelefono"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/hint_telefono" />
+            android:layout_height="46dp"
+            android:contentDescription="@string/hint_telefono"
+            android:text="@string/hint_telefono"
+            android:textSize="16sp"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <EditText
             android:id="@+id/txtTelefono"
@@ -40,22 +46,29 @@
             android:ems="10"
             android:inputType="phone"
             android:labelFor="@+id/viewTelefono"
-            android:textSize="18sp" />
+            android:minHeight="48dp"
+            android:textSize="18sp"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/viewCorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/hint_direccion" />
+            android:text="@string/hint_direccion"
+            android:textSize="16sp"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <EditText
             android:id="@+id/txtCorreoElectronico"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="@string/hint_direccion"
             android:inputType="textEmailAddress"
             android:labelFor="@+id/viewCorreo"
-            android:textSize="18sp" />
+            android:textColorHint="#546E7A"
+            android:textSize="18sp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/btnGuarda"

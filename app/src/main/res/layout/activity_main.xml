@@ -33,6 +33,7 @@
             android:clickable="true"
             android:focusable="true"
             android:src="@drawable/ic_add"
-            app:backgroundTint="@color/design_default_color_primary" />
+            app:backgroundTint="@color/design_default_color_primary"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
     </LinearLayout>
 </LinearLayout>
