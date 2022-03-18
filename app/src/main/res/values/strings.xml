@@ -6,4 +6,6 @@
     <string name="btn_guarda">Guardar registro</string>
     <string name="btnmdf">Modificar Registro</string>
     <string name="menu_nuevo">Nuevo</string>
+    <string name="menu_acercade">Acerca de</string>
+    <string name="menu_version">Version</string>
 </resources>
