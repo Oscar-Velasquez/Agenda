@@ -4,5 +4,6 @@
     <string name="hint_telefono">Telefono:</string>
     <string name="hint_direccion">Correo electrónico:</string>
     <string name="btn_guarda">Guardar registro</string>
+    <string name="btnmdf">Modificar Registro</string>
     <string name="menu_nuevo">Nuevo</string>
 </resources>
